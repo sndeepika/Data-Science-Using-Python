@@ -4,7 +4,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
-def readpgmfile(filename='D:/DataScience/convolution/cow.pgm'):
+def readpgmfile(filename='D:/DataScience/convolutional_neural_network/cow.pgm'):
     with open(filename,'r') as fd:
        magic = fd.readline()
        wid, hgt  = tuple(map(int, fd.readline().strip().split()))
@@ -18,7 +18,7 @@ def readpgmfile(filename='D:/DataScience/convolution/cow.pgm'):
 if __name__ == "__main__":
  
     
-    test, w, h = readpgmfile('E:/Indiana State University/Data Science 2/Assignments/convolution/tiger.pgm')
+    test, w, h = readpgmfile('D:/DataScience/convolutional_neural_network/cow.pgm')
     im1 = np.array(test).reshape(h,w)
     im1 = 255 - im1
 
