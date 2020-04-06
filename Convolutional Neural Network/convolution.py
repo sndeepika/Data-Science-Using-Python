@@ -4,7 +4,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
-def readpgmfile(filename='D:/convolution/cow.pgm'):
+def readpgmfile(filename='D:/DataScience/convolution/cow.pgm'):
     with open(filename,'r') as fd:
        magic = fd.readline()
        wid, hgt  = tuple(map(int, fd.readline().strip().split()))
