@@ -1,0 +1,6 @@
+In a famous paper, Campbell, Gentile, and Twenge found that men and women authors could be distinguished by the frequency they used pronouns. The claim was that women used more pronouns.
+I tested this claim using novels from Project Gutenberg.
+My program accepts five novels each written by men and five by women and compute the frequency of pronoun use in each
+book, and then for each group of five books. 
+Program prints the fraction of pronouns used by men and women.
+Our claim is true.
