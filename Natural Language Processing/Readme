@@ -1,3 +1,0 @@
-My program accepts a text file as a command line argument and builds 1-gram, 2-gram, 3-gram python dictionaries and then prints the first 5 sentences of the text file.
-I have used the Python Regular Expression Module to parse the sentences.
-The Program Abbrevation.py converts all the shortforms into their respective abbrevations(For Example: Mr is replaced by Mister in the text file).
